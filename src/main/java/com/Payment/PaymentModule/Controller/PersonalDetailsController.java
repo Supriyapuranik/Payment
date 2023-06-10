@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 public class PersonalDetailsController {
-
+// New changes added
     @Autowired
     private PersonalDetailsService personalDetailsService;
 
