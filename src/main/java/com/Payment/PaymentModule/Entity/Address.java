@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Bean;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonInclude(JsonInclude.Include.CUSTOM)
 public class Address {
+    //This is Address Entity
 //    "Country":"String",
 //            "State": "String",
 //            "city": "String",

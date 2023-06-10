@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonInclude(JsonInclude.Include.CUSTOM)
 public class PersonalDetails {
+    //Comment
     @Id()
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int Id;
